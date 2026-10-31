@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+  background-color:white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  z-index: 1000;
+
+  
+    
+}
+.about{
+    text-align: center;
+    color: green;
+}
+
+.services{
+    text-align: center;
+    color: green;
+
+}
+.contact{
+    text-align: center;
+    color: green;
+}
+
+.try{
+    width: 30px;
+    display: block;
+    
+}
+
+.h{
+    margin-right: 50px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    
+
+}
+li a{
+    text-decoration: none;
+}
+li:hover{
+   
+    background: green;
+    text-decoration: none;
+}
+.boy{
+    text-align: justify;
+}
+
+
+.one{
+    background-image: url(image/mine.jpg.jpg);
+    height: 80vh;
+    background-position: center top;
+    background-size:cover;
+}
+.box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    grid-auto-rows: minmax(200px, auto);
+    margin-bottom: 50px;
+}
+.pikinl{
+    padding: 1em;
+    border:1px black solid;
+    background-color: white;
+    font-size: 20px;
+    
+    text-align: center;
+    box-shadow: 5px  5px 5px rgba(0, 0, 0, 0.5);
+    
+
+    
+}
+@media(max-width:996px){
+    .box2{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        gap: 1em;
+        grid-auto-rows: minmax(200px, auto);
+        margin-bottom: 30px;
+}
+}
+
+@media(max-width:760px){
+    .box2{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 1em;
+        grid-auto-rows: minmax(200px, auto);
+        margin-bottom: 30px;
+}
+}
+
+
+.two{
+    padding: 100px 0px;
+
+}
+.threes{
+    padding: 100px 0px;
+}
+.four{
+    padding: 100px 0px;
+}
+.bet{
+    background-color: #FFC107;
+    font-size: 30px;
+}
+.azizz{
+    text-align: center;
+    
+}
+.kam{
+    text-align: justify;
+}
+.cs{
+    color: green;
+    
+
+}
+.ozil{
+    text-align: center;
+}
+.mee{
+    text-align: center;
+}
+
+
+@media(max-width:996px){
+    .apapa{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        grid-auto-rows: minmax(300px,auto);
+    }  
+}
+
+@media(max-width:996px){
+    .come{
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        grid-auto-rows: minmax(300px,auto);
+    }  
+}
+
+@media(max-width:760px){
+    .come{ 
+        grid-template-columns: 1fr;
+        gap: 1em;
+        grid-auto-rows: minmax(300px,auto);
+    }  
+}
+
+@media(max-width:760px){
+    .apapa{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 1em;
+        grid-auto-rows: minmax(300px,auto);
+    }  
+}
+.fet{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    background-color: black;
+    margin-top: 40px;
+
+}
+
+.foot{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.text{
+    text-align: justify;
+}
+.a{
+    padding: 1em;
+    
+    font-size: 20px;
+    background-color: white;
+}
+.hero h1{
+    font-size: 40px;
+}
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    background: #FFC107;
+}
+
+.threes{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background: #FFC107;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 5px solid #FFC107;
+    
+    
+}
+.bangura{
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px black solid;
+    
+}
+
+.butt a{
+    text-decoration: none;
+
+}
+.butt{
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.five{
+    padding: 100px 0px;
+    
+}
+.two2{
+    background-color:#FFC107;
+    color: black;
+}
+.one1{
+    background-color: blue;
+    color: white;
+}
+
+
+.pic:hover{
+transform: translateY(-10px);
+}
+.three3{
+    margin-right: 30px;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+
+    
+}
+
+.onee{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.twooo{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+.threee{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.fourr{
+    font-size: 50px;
+    background-color: #FFC107;
+    color: white;
+   margin-top: 20px;
+}
+:body{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.jk{
+    text-align: center;
+    background-color: #FFC107;
+}
+
+.jkk{
+    text-align: center;
+    background-color: grey;
+}
+p{
+    margin-bottom: 10px;
+}
+.container{
+    text-align: center;
+    margin-right: 200px;
+}
+
+
+.apapa{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    grid-auto-rows: minmax(300px,auto);
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right:200px ;
+
+}
+
+.come{
+
+    grid-template-columns: 1fr;
+    gap: 1em;
+    grid-auto-rows: minmax(300px,auto);
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right:200px ;
+
+}
+.correct{
+    text-align:center;
+}
+.aziz{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.love{
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+input{
+    width:100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 1px solid #ccc;
+    
+}
+.mamziz{
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    text-align: center;
+
+}
+.of{
+    color: #0A2A5E;
+    margin-bottom: 5px;
+
+}
+.mafor{
+    text-align: left;
+    margin-top: 15px;
+}
+
+.over{
+    font-size: 14px;
+}
+.no{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.friday{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 15px;
+}
+.fine{
+    flex: 1;
+    background: #FF6600;
+    color: white;
+    padding: 12px;
+    border: 2px solid #FF6600;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.finee{
+    flex: 1;
+    background: #FF0000;
+    background: white;
+    padding: 12px;
+    border: 2px solid #FF0000;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.no{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+}
+.location{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+.good{
+    font-size: 11px;
+    color: #888;
+    margin-top: 10px;
+}
+.wine{
+    width: 100%;
+    background: #0A2A5E;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.mu{
+    width: 100%;
+    background: #FF9800;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 1px solid #ccc;
+    height: 100px;
+
+}
+.ziz{
+    text-align: center;
+}
+.zi{
+    background-color: #FF9800;
+    font-size: 30px;
+    border-radius: 40px;
+    color: white;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+footer{
+    background: #0d2a5a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+/* Mobile responsive- important for Freetown*/
+
+
+/*@media(max-width:700px){
+.services {flex-direction:column; align-items:center;}
+header{flex-direction:column;}
+}
+*/
+
+
+@media(max-width:1020px){
+    nav ul li{
+        display: flex;
+    
+        flex-direction: column;
+        color: white;
+    
+    
+    }
+    try{
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        background-color: blue;
+        width: 200px;
+        height: 100%;
+        right: -300px;
+        z-index: 2;
+        padding:10px;
+        transition: 0.3s ease;
+    }
+}
+.h{
+    margin-right: 50px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}

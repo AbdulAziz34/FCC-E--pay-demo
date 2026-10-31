@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>FCC E-pay</title>
+</head>
+<body>
+    <header>
+     <p class="h li"><span style="color: blue;">Disclaimer: This website is NOT affiliated with the official Freetown 
+          City Council.</span></p>
+        <div class="container">
+            <h2 class="h"> <span style="color: green;">FCC E-pay</span></h2>
+            
+             
+
+            <nav>
+                <ul id="man">
+                    <img onclick="money()" class="try"  src="image/FCC-logo.jpg.jpg" alt="">
+                    <li><a href="#one">Home</a> </li>
+                    <li><a href="#two"> About</a> </li>
+                    <li><a href="#threes"> Services</a></li>
+                    <li><a href="#four"> Contact</a> </li>
+                    
+                </ul>
+            </nav>
+            <img onclick=" mynavbar()" class="try" src="image/FCC-logo.jpg.jpg" alt="" width="30px" height="30px">
+        
+        </div>
+    </header>
+    
+    <section class="one " id="one">
+      
+    </section>
+    <section class="two" id="two"><br>
+        <h2 class="about">About FCC E-pay</h2><br>
+        
+    
+
+      <div class="container">
+            <div class="granpy">
+               
+                <div class="papy">
+                 
+                    <div class=" box1 box2">
+                        <div class="pikinl azizz">
+                           
+                            <p class="kam eat">
+                              <h4>
+                                <b>FCC E-pay is a student demo project</b> inspired by the Freetown City
+                              Council's
+       
+                              <em>"Transform Freetown"</em> agenda to create a vibrant, inclusive city 
+                              for all.
+                              This platform was designed to show how residents could easily pay for city
+                              services like local tax, market dues, and other council rates using mobile
+                              money- Orange Money
+                             and Afrimoney- from their phone, without visiting the
+                             council office.
+                              </h4>
+                            </p>     
+                       </div>
+                        <div class="pikinl ozil">
+                             <H3 class="cs cd">Our Mission (Demo Concept)</H3>
+                            <p class="kam up">
+                                 <h4>
+                                    To make civic payments faster, transparent, and accessible for every
+                                 for every Freetowner, supporting efficient and people-centered services
+                                 delivery.
+                                 Disclaimer: This website is NOT affiliated with the official Freetown 
+                                 City Council. It was built for learning/portfolio purposes only.
+                                 No real money is collected.
+                                 </h4>
+                            </p>
+                    </div>
+                         <div class="pikinl mee">
+                          <H3 class="cs js">Transform Freetown Agenda</H3>
+                            <p class="kam drinl">
+                                <h4>Resilience- Tracking flooding, sanitation & climate change</h4><br>
+                                <h4>Human Development- Education, health and youth employment</h4><br>
+                                <h4>Healthy City- Clean and green Freetown</h4><br>
+                                <h4>Urban Planning & Mobility- Better roads & markets</h4>
+                            </p>
+                        </div>
+                    </div>
+
+                   
+
+                </div>
+            </div>
+        </div>
+         <button class="zi">Services</button>
+    </section><br>
+    <h2 class="services">Services</h2>
+
+
+    <section class="threes" id="threes"><br>
+           
+        <div class="box">
+           
+            <h3>Pay Taxes</h3>
+            <p>Pay your local tax online quickly</p>
+           
+        </div>
+       
+        <div class="box">
+            <h3>Report Issue</h3>
+            <p>Report waste, roads, water issues</p>
+
+        </div>
+        <div class="box">
+            <h3>FCC Project
+
+            </h3>
+            <p>See ongoing projects in Freetown</p>
+           
+    
+            </div>
+           
+            <div class="mamziz">
+                <h3 class="of">Pay Local Tax Onine</h3>
+                <p class="let">Quick & secure- Orange Money & Afrimoney</p>
+                <form onsubmit="payNow(event)" class="mafor">
+                    <label for="" class="over all">Business Name/ Property ID</label>
+                    <input type="text" class="no man" placeholder="FCC-2024-LUMLEY -123" required><br><br>
+                    <label for="" class="over you">Amount (Le)</label>
+                    <input type="number" name="" class="no we" placeholder="eg.10000" required><br><br>
+                    <label for="" class="over were">Select Payment</label>
+                    <div class="friday">
+                        <button class="fine" type="button" onclick="selectPay('orange')" id="btnOrange">Orange Money</button><br><br>    
+                        <button type="button" class="finee" onclick="selectPay('afri')" id="btnAfri">Afrimoney</button><br><br><br>
+    
+                    </div>
+                    <input type="text" class="no at" placeholder="Enter Orange/Afrimoney Number +232......" required><br><br>
+                    <button type="submit" class="wine">PayNow</button>
+                </form>
+                <p id="msg"style="display:none; background:#d4edda; color:#155724; padding:10px
+                margin-top:15px; font-size:14px;"></p> 
+                <p class="good">Demo Mode: For FCC Live version, will connect to Orange Money/ Afrimoney API</p>
+            </div>
+            <div class="love">
+                <h3 class="ziz">Reoprt Issue</h3> 
+                <form action="https://formsubmit.co/abdulazizbangura64@gmail.com" method="POST">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required><br><br>
+                    <input type="text" name="location" class="location" placeholder="Area in Freetown" required><br><br>
+                    <textarea name="issue" id="issue" placeholder="Describe waste, road, water issue......"required></textarea><br><br>
+                    <input type="hidden" name="subject" value="New FCCIssue Reported!"><br>
+                    <input type="hidden" name="_captcha" value="false">
+                    <button type="submit" class="mu">Submit Report</button>
+    
+    
+    
+                </form>
+            </div>
+
+    </section>
+ 
+ 
+    <section class="four" id="four">
+        <h2 class="contact">Contact</h2>
+            <div class="container">
+                
+                <div class="agranpa">
+                    <div class="apapa">
+                       
+                        <div class="bangura two2">
+                            <label for="">Address:</label>
+                            <h3>Wallace Johnson Street, Freetown</h3><br><br>
+                            <label for="">Phone Number:</label>
+                            <h3>+232 00 000 000</h3><br>
+                            <h3>or</h4>
+                            <h3>+322 79 000 000</h3><br><br>
+                            <label for="">Email:</label>
+                            <h3>info@fccca.az.sl</h3> <br>
+                            <h3>Opening Hours</h3>
+                            <p>Mon-Fri:830-4:30pm</p>
+    
+                            <div class="bangura three3">
+                                <img class="pic p1" src="image/sapp.jpg.png" alt="" width="60px" height="60px">
+                                <img class="pic p2" src="image/face.jpg.png" alt="" width="60px" height="60px">
+                                <img class="pic p3" src="image/tw.jpg.png" alt="" width="60px" height="60px">
+                                <img class="pic p4" src="image/ig.jpg.jpg" alt="" width="60px" height="60px">
+                                <img class="pic p5" src="image/tiktok.jpg.png" alt="" srcset="" width="60px" height="60px">
+                                <img class="pic p6" src="image/viber.jpg.png" alt="" width="60px" height="60px">
+                                <img class="pic p7" src="image/imo.jpg.png" alt="" width="60px" height="60px">
+         
+                            </div>
+    
+    
+                            
+    
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p class="foot"><span style="color: green;">&copy;2026 FCC E-pay</span><span style="color: white;">- Wallace Johnson</span> <span style="color: white;">Street</span></p>
+        </footer>
+        
+
+    
+</body>
+<script src="index.js"></script>
+</html>
